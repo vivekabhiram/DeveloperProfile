@@ -1,0 +1,225 @@
+
+.dheader{
+    position:relative;
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    left: 0px;
+    top: 0px;
+    background: #2F2E41;
+    padding-left:80px;
+    padding-right: 80px;
+   height: 80px ;
+}
+.dheader>div{
+    font-family: Nunito Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 33px;
+
+
+}
+.dheader_link{
+    text-decoration: none;
+    color: #FFFFFF;
+   
+}
+.profileinfo
+{  display: flex;
+    position: relative;
+  
+min-height: 250px;
+flex-direction: row;
+padding-top: 50px;
+flex-wrap: wrap;
+justify-content: space-around;
+
+background: #E5E5E5;
+}
+.droundimg
+{  position: relative;
+    
+    width: 200px;
+        height: 200px;
+        border-radius: 50%;
+    
+}
+.info{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  
+}
+.info_name
+{
+    font-family: Nunito Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 65px;
+
+color: #3F3D56;
+}
+.info_bio{
+
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 33px;
+    
+    color: #3F3D56;
+}
+.info_location
+{
+    font-family: Nunito Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+
+color: #3F3D56;
+}
+.repo{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 3%;
+    padding-left: 3%;
+}
+.repo_name{
+    display: flex;
+    position: relative;
+    font-family: Nunito Sans;
+    text-decoration: none;
+   word-break: break-all;
+    color: blue;
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 49px;
+
+}
+.repo_updated_at{
+    display: flex;
+    position: relative;
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 50px;
+
+color: #3F3D56;
+
+opacity: 0.4;
+}
+.repo_description{
+    font-family: Nunito Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 44px;
+
+color: #3F3D56;
+}
+.repo_name_update
+{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.repo_heading{
+    display: flex;
+    position: relative;
+    font-family: Nunito Sans;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+font-style: normal;
+font-weight: 600;
+font-size: 45px;
+line-height: 76px;
+
+color: #3F3D56;
+}
+.profile_pic{
+    margin-left:40px ;
+}
+.platform-icons
+{
+    position: relative;
+    display:flex;
+    flex-direction: row;
+
+}
+.platform-icon{
+    width:40px;
+    margin:10px;
+}
+
+.ic{
+    width:100%;
+
+}
+
+.dheader_1
+{margin:0px;
+    padding:0px;
+    color: #FFFFFF;
+    text-decoration: none;
+    
+}
+.dheader_2
+{
+    margin:0px;
+    padding:0px;
+    text-decoration: none;
+ }
+.export-icon
+{
+    width: 20px;
+    height: 20px;
+}
+.dlocation-icon
+{
+    width: 15px;
+    height: 15px;
+}
+@media only screen and (max-width: 600px) {
+   .info_name
+   {
+       font-size: 40px;
+   }
+   .droundimg
+   {
+       margin-top: 10px;
+   }
+   .repo_heading
+   {
+       font-size: 40px;
+   }
+   .info{
+       padding-left: unset;
+   }
+   .profileinfo
+   {
+       text-align: center;
+       padding-top: 20px;
+       padding-bottom: 20px;
+   }
+   .dheader
+   {
+       font-size: 18px;
+       padding-left: 10px;
+       padding-right: 10px;
+      
+   }
+  }
+     
+   
